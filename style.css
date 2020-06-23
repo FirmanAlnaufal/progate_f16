@@ -228,7 +228,7 @@ h1::after {
 /*-------------Promo-------------*/
 
 #promo {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/slide2.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/slide1.jpg);
   background-size: cover;
   background-position: center;
   color: #fff;
