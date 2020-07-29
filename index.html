@@ -22,19 +22,25 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">HOME</a>
+                        <a class="nav-link" href="#top">HOME</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">ABOUT US</a>
+                        <a class="nav-link" href="#about">ABOUT US</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">SERVICES</a>
+                        <a class="nav-link" href="#services">SERVICES</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">OUR TEAM</a>
+                        <a class="nav-link" href="#team">OUR TEAM</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">CONTACT</a>
+                        <a class="nav-link" href="#price">PRICE PLANS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#testimonials">TESTIMONIALS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">CONTACT</a>
                     </li>
                 </ul>
             </div>
@@ -243,7 +249,7 @@
     <section id="promo">
         <div class="container">
             <p>Get Free Domain Name and Web Hosting</p>
-            <a href="#" class="btn btn-primary">Contact Us</a>
+            <a href="#contact" class="btn btn-primary">Contact Us</a>
         </div>
     </section>
 
@@ -380,11 +386,51 @@
         </div>
     </section>
 
+    <section id="contact">
+        <div class="container">
+            <h1>Get In Touch</h1>
+            <div class="row">
+                <div class="col-md-6">
+                    <form class="contact-form">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Your Name">
+                        </div>
+                        <div class="form-group">
+                            <input type="number" class="form-control" placeholder="phone number">
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control" placeholder="email id">
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control" placeholder="Your Message" rows="4"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+                <div class="col-md-6 contact-info">
+                    <div class="follow"><b>Address: </b><i class="fa fa-map-marker"></i> XYZ Road, Bangalore, IN</div>
+                    <div class="follow"><b>Phone: </b><i class="fa fa-phone"></i> +62 89505870394</div>
+                    <div class="follow"><b>Email: </b><i class="fa fa-envelope-o"></i> Example@gmail.com</div>
+                    <div class="follow"><label><b>Get Social: </b></label>
+                        <a href="#"><i class="fa fa-facebook"></i></a>
+                        <a href="#"><i class="fa fa-youtube-play"></i></a>
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                        <a href="#"><i class="fa fa-google-plus"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <section id="footer">
         <div class="container text-center">
             <p>Made With <i class="fa fa-copyright"></i> By Team F16 </p>
         </div>
     </section>
+    <script src="js/smooth-scroll.js"></script>
+    <script>
+        var scroll = new SmoothScroll('a[href*="#"]');
+    </script>
 </body>
 
 </html>
